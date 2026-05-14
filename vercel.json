@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/swampmollyradio",
+      "destination": "https://swampmollyradio.vercel.app/"
+    },
+    {
+      "source": "/swampmollyradio/:path*",
+      "destination": "https://swampmollyradio.vercel.app/:path*"
+    }
+  ]
+}
