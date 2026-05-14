@@ -1,12 +1,14 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/swampmollyradio",
-      "destination": "https://swampmollyradio.vercel.app/"
+      "destination": "https://swampmollyradio.vercel.app/",
+      "permanent": false
     },
     {
       "source": "/swampmollyradio/:path*",
-      "destination": "https://swampmollyradio.vercel.app/:path*"
+      "destination": "https://swampmollyradio.vercel.app/:path*",
+      "permanent": false
     }
   ]
 }
