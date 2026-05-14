@@ -16,7 +16,7 @@
       }
 
       main {
-        max-width: 720px;
+        width: min(720px, calc(100vw - 48px));
         padding: 40px;
       }
 
@@ -30,11 +30,36 @@
         font-size: 20px;
         line-height: 1.5;
         color: #cfcfcf;
+        margin: 0 0 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #cfcfcf;
+        margin: 0 0 16px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        margin: 0 0 12px;
       }
 
       a {
         color: #fff;
+        font-size: 22px;
         font-weight: 700;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px;
+      }
+
+      a:hover {
+        text-decoration-style: wavy;
       }
     </style>
   </head>
@@ -42,9 +67,16 @@
     <main>
       <h1>Abel Charrow</h1>
       <p>Site rebuild in progress.</p>
-      <p>
-        <a href="https://swampmollyradio.vercel.app/">Swamp Molly Radio</a>
-      </p>
+
+      <h2>Featured projects:</h2>
+      <ul>
+        <li><a href="https://www.extragood.studio/">Extra Good Studio</a></li>
+        <li><a href="https://swampmollyradio.vercel.app/">Swamp Molly Radio</a></li>
+        <li><a href="https://letsbuytheseahawks.org/">Let's Buy The Seahawks</a></li>
+        <li><a href="https://two-space-needles.vercel.app/">Place Needles</a></li>
+        <li><a href="https://all-matches.vercel.app/">All Matches</a></li>
+        <li><a href="https://pictures-of-cows.vercel.app/">Pictures of Cows</a></li>
+      </ul>
     </main>
   </body>
 </html>
